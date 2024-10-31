@@ -1,6 +1,19 @@
-site_name: My Docs
+site_name: MkDocs-site
+site_description: Сайт на Python и MkDocs
+site_author: Константин Кашапов
+copyright: '2024'
+
+repo_url: https://github.com/kashapovk/mkdocs-site
+
 theme:
   name: mkdocs
   color_mode: auto
   user_color_mode_toggle: true
-  
+  custom_dir: 'custom-theme/'
+
+nav:
+  - Главная: index.md
+  - Инфо: info.md
+  - Отчёты:
+    - Практика 1: reports/lab-1.md
+    - Практика 2: reports/lab-2.md
