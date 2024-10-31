@@ -13,7 +13,7 @@ theme:
 
 nav:
   - Главная: index.md
-  - Инфо: info.md
+  - Инфо: tree.md
   - Отчёты:
     - Практика 1: reports/lab-1.md
     - Практика 2: reports/lab-2.md
